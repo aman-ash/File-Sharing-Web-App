@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+
+
+.container{
+    background-color: khaki;
+    position: static;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding-top: 10px;
+    overflow-x: scroll;
+    height: 400px;
+    overflow-x: hidden;
+}
+
+.msg{
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px 10px 5px 7px;
+    word-wrap: break-word;
+    max-width: 60%;
+}
+
+.inn{
+    display: inline-block;
+    width: 100%;
+}
+
+.timeinn{
+    display: inline-block;
+    width: 100%;
+}
+
+.me{
+    background-color: rgb(137, 190, 137);
+    margin: 0px 10px 5px 0px;
+    float: right;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.other{
+    background-color: #c0c0c0;
+    margin: 0px 0px 5px 10px;
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+}
+
+.inpt{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+    padding-left: 10px;
+}
+
+.msgs{
+    width: 90%;
+    height: 40px;
+}
+
+.send_button{
+    height: 45px;
+    cursor: pointer;
+}
+
+.time{
+    font-size: 10px;
+    float: right;
+}
+
+.message{
+    margin-left: 5px;
+}

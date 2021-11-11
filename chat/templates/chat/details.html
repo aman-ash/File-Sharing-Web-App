@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'chat/style/chat.css' %}">
+    <title>{{name}}</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        {% for i in message_sent %}
+            <div class="inn">
+                {% if name == i.0 %}
+                    <div class="msg me">
+                {% else %}
+                    <div class="msg other">
+                {% endif %}
+                        
+                        <div class="name">{{i.0}}</div>
+                        <div class="message">{{i.1}}</div>
+                        <div class="timeinn">
+                            <div class="time">{{i.2}}</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        {% endfor %}
+
+    </div>
+
+
+    <!-- form seciton -->
+
+    <form action="" class="inpt">
+        <input type="text" name="message" class="msgs">
+        <input type="submit" value="Send" class="send_button">
+    </form>
+
+</body>
+</html>
