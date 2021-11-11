@@ -3,7 +3,7 @@
 ## How to install this project in your PC?
 
 First on first install python<br>
-and then install Djnago by opening cmd and *pip install django*
+and then install Djnago by opening cmd and _pip install django_
 <br>
 Download this file in your pc and open in it visual code
 <br>
@@ -17,6 +17,7 @@ Now come in visual code and open settings<br>
 There in host section enter you IPaddress<br>
 <br>
 Now Open terminal in Visual Code<br>
-And write *python manage.py runserver <your IP address>:8000* <br>
+And write _python manage.py runserver <your IP address>:8000_ <br>
 Click the link it will open in your laptop<br>
 Write the same link in your phone URL<br>
+okay
