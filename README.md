@@ -21,3 +21,4 @@ And write _python manage.py runserver <your IP address>:8000_ <br>
 Click the link it will open in your laptop<br>
 Write the same link in your phone URL<br>
 okay
+.
