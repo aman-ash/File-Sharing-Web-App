@@ -9,18 +9,18 @@ import socket
 hostname=socket.gethostname()
 ipaddr=socket.gethostbyname(hostname)
 
-st="http://"+ipaddr+":8000"
+st="http://"+ipaddr+":8000" #ip address
 
 img=qrcode.make(st)
 addr=os.getcwd()
-print(addr)
+# print(addr)
 img.save(addr+"/chat/static/chat/images/"+"scan.jpg")
 
 
 today=date.today().strftime('%d %b %y')
 time=datetime.now().strftime('%H : %M')
 
-msg=[]
+msg=[] # main list which store all the details of the message
 
 # Create your views here.
 def home(request):
@@ -51,4 +51,3 @@ def det(request,name):
 
     except:
         return render(request,'chat/details.html',{'message_sent':msg,'name':name})
-
