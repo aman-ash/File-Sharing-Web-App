@@ -1,0 +1,5 @@
+1> File sharing
+2> Chatting
+3> Video call
+4> Phone call
+5> Chat room (Private)
